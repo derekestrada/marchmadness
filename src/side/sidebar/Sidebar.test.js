@@ -20,7 +20,6 @@ async function test() {
             e.classList.add("selected");
             let mySquares = document.getElementById("mySquares");
             mySquares.innerHTML = "";
-            let selectedName = e.innerText;
             const boardID = document.getElementById('BoardID');
             const openSquares = boardID.querySelectorAll("td:not(.locked)");
 
