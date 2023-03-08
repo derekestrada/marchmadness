@@ -1,0 +1,39 @@
+#dateSelect {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+#dateSelect li {
+    list-style: none;
+    color: white;
+    padding:5px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #eee;
+    cursor: pointer;
+}
+#dateSelect li.today {
+    background-color: #333d4d;
+    color: white;
+}
+#dateSelect li span.day {
+    font-weight: bold;
+}
+#dateSelect li span {
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+#dateSelect li:not(.today):hover {
+    background-color: rgb(196, 196, 196);
+}
+
+@media (max-width: 400px) {
+    #subhead #dateSelect {
+        justify-content: start;
+        overflow: scroll;
+    }
+  }
+  

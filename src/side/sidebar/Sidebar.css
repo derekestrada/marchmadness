@@ -1,0 +1,137 @@
+.Sidebar {
+  width: 100%;
+  height: 100vh;
+  float: left;
+  background: #202226;
+  padding-top: 50px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Sidebar-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Sidebar-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Sidebar .leaderboard {
+  width: 90%;
+  background: white;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 0 auto;
+  height: 400px;
+  overflow: scroll;
+}
+.Sidebar h4 {
+  border-bottom: 1px solid black;
+}
+.Sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+.Sidebar ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.Sidebar .payouts {
+  height: fit-content;
+  margin-bottom: 25px;
+}
+
+.appControl {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+  position: absolute;
+  z-index: 10;
+  width: inherit;
+  bottom: 25px;
+}
+.appControl div {
+  background: white;
+  color: #202226;
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 80%;
+  padding: 20px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media(max-width: 962px) {
+  .Sidebar {
+    height: 100%;
+  }
+  .sidebar {
+    padding-bottom: 100px;
+  }
+  .Sidebar .leaderboard {
+    height: auto;
+  } 
+  .sidebar {
+    padding-bottom: 100px;
+  }
+  .Sidebar .leaderboard {
+    height: auto;
+  }
+  .appControl {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+  }
+  .appControl #boardButton {
+    background: #333d4d;
+    color: white;
+    text-decoration: underline;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .App.active {
+    padding-top: 0;
+  }
+  #loseHead {
+    color:#282c34;
+  }
+}
+@media (max-width: 400px) {
+  .App {
+    top: 200%;
+  }
+  .App .boardContainer {
+    align-items: center;
+    transform: rotate(-90deg);
+  }
+}
+@media (max-width: 962px) {
+  .App .boardContainer {
+    margin-left: -55px;
+  }
+}

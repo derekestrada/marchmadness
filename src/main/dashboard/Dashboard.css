@@ -1,0 +1,241 @@
+.Dashboard {
+  overflow: auto;
+  margin-bottom: 15px;
+}
+.Dashboard h4 {
+  color:white;
+  background: #333d4d; 
+  padding: 5px;
+  margin-left: 25px;
+  width: 150px;
+  margin-top: 0px;
+}
+
+.Dashboard .Results {
+  display: flex;
+  overflow: scroll;
+  gap: 15px;
+  padding: 15px;
+  width: fit-content;
+  width: 95%;
+  display: none;
+}
+
+.Dashboard .Results.Winners, .Dashboard .Results.MyWinners {
+  display: flex;
+}
+
+.Dashboard .Results.today {
+  display: flex;
+}
+.Dashboard .Results .event {
+  min-width: 350px;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.Dashboard .Results .event .scoreTitle {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.Dashboard .Results .event .scoreTitle .startTime, .Dashboard .Results .event .scoreTitle .final, .Dashboard .Results .event ul li.inProgress .teamScore span.totalScore {
+  font-weight: bold;
+}
+
+.Dashboard .Results .event .scoreTitle .scores span, .Dashboard .Results .event ul li.inProgress .teamScore span {
+  margin-left: 25px;
+  min-width: 20px;
+  display: inline-block;
+  margin: 0 10px;
+  text-align: right;
+}
+
+.Dashboard .Results .event .scoreTitle .scores span.final, .Dashboard .Results .event ul li.inProgress .teamScore span.totalScore {
+  min-width: 30px
+}
+.Dashboard .Results .event .scoreTitle .scores span, .Dashboard .Results .event ul li.inProgress .teamScore span {
+  font-size: 12px;
+}
+.Dashboard .Results .event ul li.inProgress .teamScore span.totalScore {
+  font-size: 17px;
+}
+
+.Dashboard .Results .event ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+.Dashboard .Results .event ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.Dashboard .Results .event ul li.inProgress {
+  justify-content: space-between;
+}
+.Dashboard .Results .event ul li.inProgress .teamInfo {
+  display: flex;
+  align-items: center;
+}
+
+.Dashboard .Results .event ul li img {
+  width: 30px;
+  margin-right: 5px;
+}
+.Dashboard .Results .event ul li .rank {
+  font-size: 10px;
+  margin-right: 5px;
+  width: 10px;
+  text-align: right;
+}
+
+/* Custom Scrollbar */
+.Dashboard ::-webkit-scrollbar {
+  height: 2px;
+}
+
+/* Handle */
+.Dashboard ::-webkit-scrollbar-thumb {
+  background: #333d4d;
+}
+
+/* LEADERBOARD STYLES  */
+.Leaderboard #leaderboard {
+  width: 250px;
+  padding-left: 25px;
+}
+.Leaderboard #leaderboard li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+/* Recent Winning Styles  */
+#recentWinners .event ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+}
+#recentWinners .event ul li {
+  flex-direction: column;
+}
+#recentWinners .event ul li .logo img {
+  margin-right: 0;
+}
+#recentWinners .event ul li .score {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#recentWinners .event ul li span {
+  margin: 5px 0;
+}
+#recentWinners h3 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.blob {
+  transform: scale(1);
+  background: rgba(17, 182, 143, 1);
+  box-shadow: 0 0 0 0 rgb(17, 182, 143);
+  animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(51, 217, 178, 0.7);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(51, 217, 178, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(51, 217, 178, 0);
+  }
+}
+
+
+#myWinnings .event ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+}
+#myWinnings .event ul li {
+  flex-direction: column;
+}
+#myWinnings .event ul li .logo img {
+  margin-right: 0;
+}
+#myWinnings .event ul li .score {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#myWinnings .event ul li span {
+  margin: 5px 0;
+}
+#myWinnings h3 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+#myWinnings .noWinnings {
+  width: 100%;
+  background-color: #eee;
+  color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  padding: 50px 0;
+}
+@media (max-width: 962px) {
+  .Dashboard .Results .event {
+    min-width: 300px;
+  }
+  .Dashboard .Results .event h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .Dashboard .Results {
+    flex-wrap: wrap;
+    max-height: 300px;
+    overflow-y: scroll;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .Dashboard .Results .event ul {
+    margin-top: 5px;
+  }
+  .Dashboard .Results .event ul li:last-child {
+    margin-bottom: 0;
+  }
+  #recentWinners .event ul li span {
+    margin-bottom: 0;
+  }
+  /* Custom Scrollbar */
+.Dashboard ::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Handle */
+.Dashboard ::-webkit-scrollbar-thumb {
+  background: #333d4d;
+}
+}
+
+@media (max-width: 400px) {
+  .Dashboard .Results .event {
+    min-width: -webkit-fill-available;
+  }
+}
+

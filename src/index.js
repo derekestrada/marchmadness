@@ -1,17 +1,33 @@
+import App from './main/board/App';
+import Dashboard from './main/dashboard/Dashboard';
+import Header from './main/header/Header';
+import SubHeader from './main/subheader/SubHeader';
+import Sidebar from './side/sidebar/Sidebar';
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="sidebar">
+      <Sidebar />
+    </div>
+    <div className="main">
+      <Header />
+      <SubHeader />
+      <Dashboard />
+      <App />
+    </div>
+    <div className="loaderContainer" id="loader">
+    <h3>Loading...</h3>
+      <div class="progress">
+        <div class="color"></div>
+      </div>
+    </div>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
