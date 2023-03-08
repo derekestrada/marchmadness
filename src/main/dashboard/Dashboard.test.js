@@ -61,6 +61,7 @@ function winnerSquare(winnerNumber, loserNumber, eventWorth, winnerData) {
       if (LeaderboardArray.length < 1) {
         LeaderboardArray.push(obj);
       } else {
+        // eslint-disable-next-line
         function addWinnings() {
           let nIndex = LeaderboardArray.map(function(o) { return o.name; }).indexOf(winnerSquare);
           let n = LeaderboardArray[nIndex].winnings;

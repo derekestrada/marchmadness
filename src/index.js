@@ -22,8 +22,8 @@ root.render(
     </div>
     <div className="loaderContainer" id="loader">
     <h3>Loading...</h3>
-      <div class="progress">
-        <div class="color"></div>
+      <div className="progress">
+        <div className="color"></div>
       </div>
     </div>
   </React.StrictMode>
