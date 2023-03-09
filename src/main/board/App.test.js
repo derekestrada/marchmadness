@@ -104,7 +104,7 @@ async function test() {
         let takenSquares = [
             {
                 "square": 0,
-                "name": "NA"
+                "name": "Stacy Cazabon"
             },
             {
                 "square": 1,
@@ -132,7 +132,7 @@ async function test() {
             },
             {
                 "square": 7,
-                "name": "NA"
+                "name": "Dave Schneider"
             },
             {
                 "square": 8,
@@ -176,7 +176,7 @@ async function test() {
             },
             {
                 "square": 18,
-                "name": "NA"
+                "name": "Ryan Hunt"
             },
             {
                 "square": 19,
@@ -204,11 +204,11 @@ async function test() {
             },
             {
                 "square": 25,
-                "name": "NA"
+                "name": "Mike Thayer"
             },
             {
                 "square": 26,
-                "name": "NA"
+                "name": "Paul Arthur"
             },
             {
                 "square": 27,
@@ -248,7 +248,7 @@ async function test() {
             },
             {
                 "square": 36,
-                "name": "NA"
+                "name": "Tom Cazabon"
             },
             {
                 "square": 37,
@@ -288,7 +288,7 @@ async function test() {
             },
             {
                 "square": 46,
-                "name": "NA"
+                "name": "Bill Kritzman"
             },
             {
                 "square": 47,
@@ -300,7 +300,7 @@ async function test() {
             },
             {
                 "square": 49,
-                "name": "NA"
+                "name": "Pam Arthur"
             },
             {
                 "square": 50,
@@ -308,7 +308,7 @@ async function test() {
             },
             {
                 "square": 51,
-                "name": "NA"
+                "name": "Ryan Hunt"
             },
             {
                 "square": 52,
@@ -316,11 +316,11 @@ async function test() {
             },
             {
                 "square": 53,
-                "name": "NA"
+                "name": "Paul Arthur"
             },
             {
                 "square": 54,
-                "name": "NA"
+                "name": "Scott Cazabon"
             },
             {
                 "square": 55,
@@ -348,7 +348,7 @@ async function test() {
             },
             {
                 "square": 61,
-                "name": "NA"
+                "name": "Dave Schneider"
             },
             {
                 "square": 62,
@@ -360,11 +360,11 @@ async function test() {
             },
             {
                 "square": 64,
-                "name": "NA"
+                "name": "Pam Arthur"
             },
             {
                 "square": 65,
-                "name": "NA"
+                "name": "Ryan Hunt"
             },
             {
                 "square": 66,
@@ -384,11 +384,11 @@ async function test() {
             },
             {
                 "square": 70,
-                "name": "NA"
+                "name": "Ryan Hunt"
             },
             {
                 "square": 71,
-                "name": "NA"
+                "name": "Paul Arthur"
             },
             {
                 "square": 72,
@@ -440,11 +440,11 @@ async function test() {
             },
             {
                 "square": 84,
-                "name": "NA"
+                "name": "Bill Kritzman"
             },
             {
                 "square": 85,
-                "name": "NA"
+                "name": "Stacy Cazabon"
             },
             {
                 "square": 86,
@@ -452,7 +452,7 @@ async function test() {
             },
             {
                 "square": 87,
-                "name": "NA"
+                "name": "Mike Thayer"
             },
             {
                 "square": 88,
@@ -472,11 +472,11 @@ async function test() {
             },
             {
                 "square": 92,
-                "name": "NA"
+                "name": "Kelley Phillips"
             },
             {
                 "square": 93,
-                "name": "NA"
+                "name": "Paul Arthur"
             },
             {
                 "square": 94,

@@ -3,6 +3,7 @@ import Dashboard from './main/dashboard/Dashboard';
 import Header from './main/header/Header';
 import SubHeader from './main/subheader/SubHeader';
 import Sidebar from './side/sidebar/Sidebar';
+import MobileHeader from './main/mobileHeader/MobileHeader';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -11,10 +12,10 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className="sidebar">
+    <div className="sidebar" id="sidebar">
       <Sidebar />
     </div>
-    <div className="main">
+    <div className="main" >
       <Header />
       <SubHeader />
       <Dashboard />
@@ -26,6 +27,7 @@ root.render(
         <div className="color"></div>
       </div>
     </div>
+    <MobileHeader/>
   </React.StrictMode>
 );
 

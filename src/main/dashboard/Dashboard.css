@@ -205,16 +205,36 @@
 }
 
 @media (max-width: 400px) {
+  .DashBoards {
+    display: flex;
+    flex-direction: column;
+  }
+  #myWinnerContainer {
+    margin-top: 15px;
+  }
+
+  #recentContainer {
+    margin-top: 15px;
+    max-height: 400px;
+    order: 2;
+  }
   .Dashboard .Results {
     flex-wrap: wrap;
-    max-height: 300px;
+    max-height: auto;
     overflow-y: scroll;
     justify-content: space-around;
     box-sizing: border-box;
     width: 100%;
   }
+  .Dashboard .Results .event .scoreTitle {
+    flex: 1;
+  }
+  .Dashboard .Results .event .scoreTitle .gameTime {
+    padding-left: 10px;
+  }
   .Dashboard .Results .event ul {
     margin-top: 5px;
+    flex:3;
   }
   .Dashboard .Results .event ul li:last-child {
     margin-bottom: 0;
@@ -234,8 +254,27 @@
 }
 
 @media (max-width: 400px) {
-  .Dashboard .Results .event {
+  #resultsContainer .Results .event {
     min-width: -webkit-fill-available;
+    display: flex;
+    justify-content: space-around;
+  }
+  #resultsContainer .Results .event .scoreTitle {
+    order: 2;
+    padding-top: 10px;
+  }
+  #resultsContainer .Results .event .scoreTitle .scores {
+    display: none;
+  }
+  #resultsContainer .Results .event ul {
+    width: 70%;
+    border-right: 1px solid #ccc;
+  }
+  #resultsContainer .Results .event ul li .teamScore span:not(.totalScore) {
+    display: none;
+  }
+  #resultsContainer .Results .event ul li img {
+    width: 25px;
   }
 }
 

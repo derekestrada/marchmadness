@@ -123,11 +123,15 @@
 }
 @media (max-width: 400px) {
   .App {
-    top: 200%;
+    top: 0;
+    display: none;
   }
   .App .boardContainer {
     align-items: center;
     transform: rotate(-90deg);
+  }
+  .appControl {
+    display: none;
   }
 }
 @media (max-width: 962px) {

@@ -3,30 +3,6 @@ async function test() {
 
     const dateList = [
         {
-            id: 20230302, 
-            date: "2nd",
-            day: "THU",
-            month: "Mar"
-        },
-        {
-            id: 20230303, 
-            date: "3rd",
-            day: "FRI",
-            month: "Mar"
-        },
-        {
-            id: 20230304, 
-            date: "4th",
-            day: "SAT",
-            month: "Mar"
-        },
-        {
-            id: 20230305, 
-            date: "5th",
-            day: "SUN",
-            month: "Mar"
-        },
-        {
             id: 20230306, 
             date: "6th",
             day: "MON",
@@ -54,6 +30,18 @@ async function test() {
             id: 20230310, 
             date: "10th",
             day: "FRI",
+            month: "Mar"
+        },
+        {
+            id: 20230311, 
+            date: "10th",
+            day: "SAT",
+            month: "Mar"
+        },
+        {
+            id: 20230312, 
+            date: "12th",
+            day: "SUN",
             month: "Mar"
         },
     ];

@@ -4,8 +4,8 @@ import './Header.test.js';
 function Header() {
 
   return (
-    <div className="mainContainer">
-      <div className="Header">
+    <div className="mainContainer" id="mainContainer">
+      <div className="Header" id="Header">
 
         <div className="mySquares">
           <h3>My Squares</h3>

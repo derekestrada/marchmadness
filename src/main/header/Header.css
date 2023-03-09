@@ -166,6 +166,12 @@
 @media (max-width: 400px) {
   .Header, .mySquares {
     flex-direction: column;
+    max-width: 100%;
+    background: none;
+    padding: 0
+  }
+  .mySquares ul li span {
+    width: 10px;
   }
   .Header {
     padding-bottom: 20px;
@@ -173,9 +179,8 @@
   .mySquares ul {
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 85%;
   }
   .mySquares ul li {
-    margin: 10px 0 !important;
+    margin: 10px !important;
   }
 }
