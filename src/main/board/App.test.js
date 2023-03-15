@@ -1,76 +1,11 @@
 async function test() {
     await new Promise(resolve => setTimeout(resolve, 1000));
-    // function createBoard() {
-    //     let board = document.getElementById("Board");
-    //     board.innerHTML = '';
-    
-    
-    //     // each lines
-    //     for(let i = 0; i < 11; i++) {
-    //         // each column
-    //         for(let j = 0; j < 11; j++) {
-    //             let board = document.getElementById("Board");
-    
-    //             // create a square
-    //             let square = document.createElement("div");
-    //             // add the Square class
-    //             square.classList.add("Square");
-                
-    //             // instead of class linehx
-    //             square.style.top = 60 * i + "px";
-    //             // or use : square.classList.add("lineh" + i);
-                
-    //             // instead of class linevx
-    //             square.style.left = 75 * j + "px";
-    //             // or use : square.classList.add("linev" + j);
-    //             square.setAttribute('data-winCol', j)
-                
-    //             // add it to the board
-    //             board.appendChild(square);
-    //         }
-    //     }
-      
-    //     let squareWin = document.createElement("div");
-    //             // add the Square class
-    //             squareWin.classList.add("winner","Square", "locked");
-                
-    //             // instead of class linehx
-    //             squareWin.style.top = "-60px"
-    //             // or use : square.classList.add("lineh" + i);
-                
-    //             // instead of class linevx
-    //             squareWin.style.left = "75px"
-    //             // or use : square.classList.add("linev" + j);
-                
-    //             squareWin.innerHTML = "Winner Number"
-      
-                
-    //             // add it to the board
-    //             board.appendChild(squareWin);
-      
-    //     let squareLose = document.createElement("div");
-    //             // add the Square class
-    //             squareLose.classList.add("loser", "Square", "locked");
-                
-    //             // instead of class linehx
-    //             squareLose.style.top = "330px"
-    //             // or use : square.classList.add("lineh" + i);
-                
-    //             // instead of class linevx
-    //             squareLose.style.left = "-330px"
-    //             // or use : square.classList.add("linev" + j);
-      
-    //             squareLose.innerHTML = "Loser Number"
-                
-    //             // add it to the board
-    //             board.appendChild(squareLose);
-    //   }
     
     function setNumbers() {
 
         // Set Numbers 
-        let winners = [0,9,8,7,6,5,4,3,2,1];
-        let losers = [1,2,3,4,5,6,7,8,0,9];
+        let winners = [4,7,3,8,5,6,9,1,2,0];
+        let losers = [3,7,4,6,5,0,9,8,1,2];
 
         const winRow = document.getElementById("winningNumbers");
         const winnerNums = winRow.querySelectorAll("td:not(.blank)");
@@ -220,11 +155,11 @@ async function test() {
             },
             {
                 "square": 29,
-                "name": "NA"
+                "name": "Kyle House"
             },
             {
                 "square": 30,
-                "name": "NA"
+                "name": "Hafer (Bob)"
             },
             {
                 "square": 31,
@@ -252,7 +187,7 @@ async function test() {
             },
             {
                 "square": 37,
-                "name": "NA"
+                "name": "Bart Paladino"
             },
             {
                 "square": 38,
@@ -260,11 +195,11 @@ async function test() {
             },
             {
                 "square": 39,
-                "name": "NA"
+                "name": "Mandi Gauthier"
             },
             {
                 "square": 40,
-                "name": "NA"
+                "name": "Bailey (Bob)"
             },
             {
                 "square": 41,
@@ -296,7 +231,7 @@ async function test() {
             },
             {
                 "square": 48,
-                "name": "NA"
+                "name": "Scott Gauthier"
             },
             {
                 "square": 49,
@@ -304,7 +239,7 @@ async function test() {
             },
             {
                 "square": 50,
-                "name": "NA"
+                "name": "Dennis Estrada"
             },
             {
                 "square": 51,
@@ -328,7 +263,7 @@ async function test() {
             },
             {
                 "square": 56,
-                "name": "NA"
+                "name": "Joel A"
             },
             {
                 "square": 57,
@@ -336,7 +271,7 @@ async function test() {
             },
             {
                 "square": 58,
-                "name": "NA"
+                "name": "Hafer (Bob)"
             },
             {
                 "square": 59,
@@ -344,7 +279,7 @@ async function test() {
             },
             {
                 "square": 60,
-                "name": "NA"
+                "name": "Shreve (Bob)"
             },
             {
                 "square": 61,
@@ -356,7 +291,7 @@ async function test() {
             },
             {
                 "square": 63,
-                "name": "NA"
+                "name": "Ben Yowell"
             },
             {
                 "square": 64,
@@ -372,7 +307,7 @@ async function test() {
             },
             {
                 "square": 67,
-                "name": "NA"
+                "name": "Dennis Estrada"
             },
             {
                 "square": 68,
@@ -416,11 +351,11 @@ async function test() {
             },
             {
                 "square": 78,
-                "name": "NA"
+                "name": "Liz Estrada"
             },
             {
                 "square": 79,
-                "name": "NA"
+                "name": "Dennis Estrada"
             },
             {
                 "square": 80,
@@ -448,7 +383,7 @@ async function test() {
             },
             {
                 "square": 86,
-                "name": "NA"
+                "name": "Shreve (Bob)"
             },
             {
                 "square": 87,
@@ -456,11 +391,11 @@ async function test() {
             },
             {
                 "square": 88,
-                "name": "NA"
+                "name": "Denny Estrada"
             },
             {
                 "square": 89,
-                "name": "NA"
+                "name": "Bob/Derek"
             },
             {
                 "square": 90,
@@ -468,7 +403,7 @@ async function test() {
             },
             {
                 "square": 91,
-                "name": "NA"
+                "name": "Kyle House"
             },
             {
                 "square": 92,
@@ -480,11 +415,11 @@ async function test() {
             },
             {
                 "square": 94,
-                "name": "NA"
+                "name": "Liz Estrada"
             },
             {
                 "square": 95,
-                "name": "NA"
+                "name": "Dennis Estrada"
             },
             {
                 "square": 96,
@@ -492,7 +427,7 @@ async function test() {
             },
             {
                 "square": 97,
-                "name": "NA"
+                "name": "Mandi Gauthier"
             },
             {
                 "square": 98,

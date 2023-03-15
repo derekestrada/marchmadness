@@ -1,48 +1,65 @@
 async function test() {
-    await new Promise(resolve => setTimeout(resolve, 1000));
 
     const dateList = [
         {
-            id: 20230306, 
-            date: "6th",
-            day: "MON",
-            month: "Mar"
-        },
-        {
-            id: 20230307, 
-            date: "7th",
-            day: "TUE",
-            month: "Mar"
-        },
-        {
-            id: 20230308, 
-            date: "8th",
-            day: "WED",
-            month: "Mar"
-        },
-        {
-            id: 20230309, 
-            date: "9th",
+            id: 20230316, 
+            date: "16th",
             day: "THU",
             month: "Mar"
         },
         {
-            id: 20230310, 
-            date: "10th",
+            id: 20230317, 
+            date: "17th",
             day: "FRI",
             month: "Mar"
         },
         {
-            id: 20230311, 
-            date: "10th",
+            id: 20230318, 
+            date: "18th",
             day: "SAT",
             month: "Mar"
         },
         {
-            id: 20230312, 
-            date: "12th",
+            id: 20230319, 
+            date: "19th",
             day: "SUN",
             month: "Mar"
+        },
+        {
+            id: 20230323, 
+            date: "23rd",
+            day: "THU",
+            month: "Mar"
+        },
+        {
+            id: 20230324, 
+            date: "24th",
+            day: "FRI",
+            month: "Mar"
+        },
+        {
+            id: 20230325, 
+            date: "25th",
+            day: "SAT",
+            month: "Mar"
+        },
+        {
+            id: 20230326, 
+            date: "26th",
+            day: "SUN",
+            month: "Mar"
+        },
+        {
+            id: 20230401, 
+            date: "1st",
+            day: "SAT",
+            month: "APR"
+        },
+        {
+            id: 20230403, 
+            date: "3rd",
+            day: "MON",
+            month: "APR"
         },
     ];
     const dateSelect = document.getElementById("dateSelect");

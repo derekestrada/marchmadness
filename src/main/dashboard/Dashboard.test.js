@@ -2,11 +2,16 @@ async function test() {
   await new Promise(resolve => setTimeout(resolve, 1000));
   let LeaderboardArray = [];
 let dateRange = [
-  {date: 20230307, value: 5}, 
-  {date: 20230308, value: 5}, 
-  {date: 20230309, value: 5}, 
-  {date: 20230310, value: 5},
-  {date: 20230311, value: 5}, 
+  {date: 20230316, value: 10}, 
+  {date: 20230317, value: 10}, 
+  {date: 20230318, value: 25}, 
+  {date: 20230319, value: 25},
+  {date: 20230323, value: 50},
+  {date: 20230324, value: 50}, 
+  {date: 20230325, value: 100}, 
+  {date: 20230326, value: 100}, 
+  {date: 20230401, value: 250},
+  {date: 20230403, value: 480},
 ];
 let resultsContainer = document.getElementById('resultsContainer');
 
@@ -42,7 +47,7 @@ dateRange.forEach(function(e, key){
 
 function winnerSquare(winnerNumber, loserNumber, eventWorth, winnerData) {
   // let winners = [0,9,8,7,6,5,4,3,2,1];
-  let losers = [1,2,3,4,5,6,7,8,0,9];
+  let losers = [3,7,4,6,5,0,9,8,1,2];
   let winnerRow = document.querySelectorAll("td[data-winnum='" + winnerNumber + "']");
 
   for(let j = 0; j < losers.length; j++) {
