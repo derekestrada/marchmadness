@@ -213,7 +213,7 @@ function fn60sec() {
   retrieveData()
 }
 fn60sec();
-setInterval(fn60sec, 60*3000);
+setInterval(fn60sec, 60*1000);
 }
 
 test();
