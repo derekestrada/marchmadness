@@ -102,7 +102,7 @@ function retrieveData() {
     const loader = document.getElementById("loader");
     loader.style.display = 'none';
 
-
+    console.log(data, data.day.date)
     let dataDate = data.day.date;
     let finalDate = dataDate.replace(/-/g, '');
     let results = document.getElementById(finalDate);

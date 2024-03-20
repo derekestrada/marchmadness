@@ -3,25 +3,25 @@ async function test() {
 
     const dateList = [
         {
-            id: 2023032, 
+            id: 20230321, 
             date: "21st",
             day: "THU",
             month: "Mar"
         },
         {
-            id: 20230323, 
-            date: "23rd",
+            id: 20230322, 
+            date: "22nd",
             day: "FRI",
             month: "Mar"
         },
         {
-            id: 20230324, 
-            date: "24th",
+            id: 20230323, 
+            date: "23rd",
             day: "SAT",
             month: "Mar"
         },
         {
-            id: 20230325, 
+            id: 20230324, 
             date: "24th",
             day: "SUN",
             month: "Mar"
