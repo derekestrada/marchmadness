@@ -4,8 +4,8 @@ async function test() {
     function setNumbers() {
 
         // Set Numbers 
-        let winners = [4,7,3,8,5,6,9,1,2,0];
-        let losers = [3,7,4,6,5,0,9,8,1,2];
+        let winners = [0,9,7,2,6,4,1,3,8,5];
+        let losers = [4,6,9,5,2,0,3,8,1,7];
 
         const winRow = document.getElementById("winningNumbers");
         const winnerNums = winRow.querySelectorAll("td:not(.blank)");
@@ -39,43 +39,43 @@ async function test() {
         let takenSquares = [
             {
                 "square": 0,
-                "name": "Stacy Cazabon"
+                "name": "Derek Estrada"
             },
             {
                 "square": 1,
-                "name": "Dennis Estrada"
+                "name": "Lyle Tolfree"
             },
             {
                 "square": 2,
-                "name": "Dennis / Kathy (Steff)"
-            },
-            {
-                "square": 3,
-                "name": "Matt Reising"
-            },
-            {
-                "square": 4,
-                "name": "Brandon Paladino"
-            },
-            {
-                "square": 5,
-                "name": "Mike Moorhous"
-            },
-            {
-                "square": 6,
                 "name": "Chris Estrada"
             },
             {
+                "square": 3,
+                "name": "Kelsey Kleine"
+            },
+            {
+                "square": 4,
+                "name": "Scott Gauthier"
+            },
+            {
+                "square": 5,
+                "name": "Paul Arthur"
+            },
+            {
+                "square": 6,
+                "name": "Stephanie Kleine"
+            },
+            {
                 "square": 7,
-                "name": "Dave Schneider"
+                "name": "Hafener (Bob)"
             },
             {
                 "square": 8,
-                "name": "Tj Clacher"
+                "name": "Patrick McCloskey"
             },
             {
                 "square": 9,
-                "name": "Steff Kleine"
+                "name": "Matt Gauthier"
             },
             {
                 "square": 10,
@@ -83,35 +83,35 @@ async function test() {
             },
             {
                 "square": 11,
-                "name": "Mary Estrada"
+                "name": "Ryan Hunt"
             },
             {
                 "square": 12,
-                "name": "Steve Spickard"
+                "name": "Ashley Banahene"
             },
             {
                 "square": 13,
-                "name": "Greg Rossi"
+                "name": "Pam Arthur"
             },
             {
                 "square": 14,
-                "name": "Allison Kennedy"
+                "name": "Hager (Bob)"
             },
             {
                 "square": 15,
-                "name": "Craig Konieczka"
+                "name": "Joe Slater"
             },
             {
                 "square": 16,
-                "name": "Dennis Estrada"
+                "name": "Becca Jaschuk"
             },
             {
                 "square": 17,
-                "name": "Greg Rossi"
+                "name": "Steve Bahr"
             },
             {
                 "square": 18,
-                "name": "Ryan Hunt"
+                "name": "Derek Estrada"
             },
             {
                 "square": 19,
@@ -119,179 +119,179 @@ async function test() {
             },
             {
                 "square": 20,
-                "name": "Brandon Paladino"
+                "name": "Tj Clacher"
             },
             {
                 "square": 21,
-                "name": "Derek Estrada"
+                "name": "Mike Moorhous"
             },
             {
                 "square": 22,
-                "name": "Mike Stevens"
+                "name": "Brandon Paladino"
             },
             {
                 "square": 23,
-                "name": "Rich Kremer"
-            },
-            {
-                "square": 24,
-                "name": "Steve Bahr"
-            },
-            {
-                "square": 25,
-                "name": "Mike Thayer"
-            },
-            {
-                "square": 26,
-                "name": "Paul Arthur"
-            },
-            {
-                "square": 27,
-                "name": "Allison Kennedy"
-            },
-            {
-                "square": 28,
-                "name": "Dennis Estrada"
-            },
-            {
-                "square": 29,
-                "name": "Kyle House"
-            },
-            {
-                "square": 30,
-                "name": "Hafer (Bob)"
-            },
-            {
-                "square": 31,
-                "name": "Craig Konieczka"
-            },
-            {
-                "square": 32,
-                "name": "Mike Stevens"
-            },
-            {
-                "square": 33,
-                "name": "Steff Kleine"
-            },
-            {
-                "square": 34,
-                "name": "AA (Bob)"
-            },
-            {
-                "square": 35,
-                "name": "Denny Estrada"
-            },
-            {
-                "square": 36,
-                "name": "Tom Cazabon"
-            },
-            {
-                "square": 37,
-                "name": "Bart Paladino"
-            },
-            {
-                "square": 38,
-                "name": "Derek Estrada"
-            },
-            {
-                "square": 39,
-                "name": "Mandi Gauthier"
-            },
-            {
-                "square": 40,
-                "name": "Bailey (Bob)"
-            },
-            {
-                "square": 41,
-                "name": "Steve Bahr"
-            },
-            {
-                "square": 42,
-                "name": "Mike Stevens"
-            },
-            {
-                "square": 43,
-                "name": "Kurtis Emme"
-            },
-            {
-                "square": 44,
-                "name": "Bob Kleine"
-            },
-            {
-                "square": 45,
-                "name": "Greg Rossi"
-            },
-            {
-                "square": 46,
-                "name": "Bill Kritzman"
-            },
-            {
-                "square": 47,
                 "name": "Matt Reising"
             },
             {
-                "square": 48,
-                "name": "Scott Gauthier"
+                "square": 24,
+                "name": "Rich Kremer"
             },
             {
-                "square": 49,
-                "name": "Pam Arthur"
+                "square": 25,
+                "name": "Scott Jaschuk"
             },
             {
-                "square": 50,
-                "name": "Dennis Estrada"
+                "square": 26,
+                "name": "Kelsey Kleine"
             },
             {
-                "square": 51,
+                "square": 27,
+                "name": "Ashley Banahene"
+            },
+            {
+                "square": 28,
                 "name": "Ryan Hunt"
             },
             {
-                "square": 52,
-                "name": "Mike Stevens"
+                "square": 29,
+                "name": "Matt Reising"
             },
             {
-                "square": 53,
-                "name": "Paul Arthur"
+                "square": 30,
+                "name": "Greg Rossi"
             },
             {
-                "square": 54,
-                "name": "Scott Cazabon"
+                "square": 31,
+                "name": "Craig Konienczka"
             },
             {
-                "square": 55,
-                "name": "Chris Estrada"
-            },
-            {
-                "square": 56,
-                "name": "Joel A"
-            },
-            {
-                "square": 57,
+                "square": 32,
                 "name": "Steve Bahr"
             },
             {
-                "square": 58,
-                "name": "Hafer (Bob)"
+                "square": 33,
+                "name": "Tom Cazabon"
             },
             {
-                "square": 59,
+                "square": 34,
+                "name": "Denny Estrada"
+            },
+            {
+                "square": 35,
+                "name": "Jeff R."
+            },
+            {
+                "square": 36,
+                "name": "Scott Jaschuk"
+            },
+            {
+                "square": 37,
+                "name": "Greg Rossi"
+            },
+            {
+                "square": 38,
+                "name": "Chris Estrada"
+            },
+            {
+                "square": 39,
+                "name": "Dennis Estrada"
+            },
+            {
+                "square": 40,
+                "name": "Matt Gauther"
+            },
+            {
+                "square": 41,
+                "name": "Jeff R."
+            },
+            {
+                "square": 42,
+                "name": "Troy (Bob)"
+            },
+            {
+                "square": 43,
+                "name": "Patrick McCloskey"
+            },
+            {
+                "square": 44,
+                "name": "Mike Thayer"
+            },
+            {
+                "square": 45,
+                "name": "Allison Kennedy"
+            },
+            {
+                "square": 46,
+                "name": "Liz Estrada"
+            },
+            {
+                "square": 47,
+                "name": "Denny Estrada"
+            },
+            {
+                "square": 48,
+                "name": "Matt Gauthier"
+            },
+            {
+                "square": 49,
+                "name": "Brent Mac (Bob)"
+            },
+            {
+                "square": 50,
+                "name": "Travis (Bob)"
+            },
+            {
+                "square": 51,
                 "name": "Mary Estrada"
             },
             {
+                "square": 52,
+                "name": "Gooder"
+            },
+            {
+                "square": 53,
+                "name": "Tom (Bob)"
+            },
+            {
+                "square": 54,
+                "name": "Brandon Paladino"
+            },
+            {
+                "square": 55,
+                "name": "Dennis Estrada"
+            },
+            {
+                "square": 56,
+                "name": "Joe Slater"
+            },
+            {
+                "square": 57,
+                "name": "Joe Jaschuk"
+            },
+            {
+                "square": 58,
+                "name": "Bob Kleine"
+            },
+            {
+                "square": 59,
+                "name": "AA (Bob)"
+            },
+            {
                 "square": 60,
-                "name": "Shreve (Bob)"
+                "name": "Chris Estrada"
             },
             {
                 "square": 61,
-                "name": "Dave Schneider"
+                "name": "Hafener (Bob)"
             },
             {
                 "square": 62,
-                "name": "Derek Estrada"
+                "name": "Dennis Estrada"
             },
             {
                 "square": 63,
-                "name": "Ben Yowell"
+                "name": "Toby (Bob)"
             },
             {
                 "square": 64,
@@ -303,140 +303,141 @@ async function test() {
             },
             {
                 "square": 66,
-                "name": "Kurtis Emme"
+                "name": "Mike Moorhous"
             },
             {
                 "square": 67,
-                "name": "Dennis Estrada"
+                "name": "Gooder"
             },
             {
                 "square": 68,
-                "name": "Lyle Tolfree"
+                "name": "Craig Konienczka"
             },
             {
                 "square": 69,
-                "name": "Chris Estrada"
-            },
-            {
-                "square": 70,
-                "name": "Ryan Hunt"
-            },
-            {
-                "square": 71,
-                "name": "Paul Arthur"
-            },
-            {
-                "square": 72,
-                "name": "Greg Rossi"
-            },
-            {
-                "square": 73,
-                "name": "Craig Konieczka"
-            },
-            {
-                "square": 74,
-                "name": "Matt Gauthier"
-            },
-            {
-                "square": 75,
-                "name": "Matt Gauthier"
-            },
-            {
-                "square": 76,
-                "name": "AA (Bob)"
-            },
-            {
-                "square": 77,
-                "name": "Denny Estrada"
-            },
-            {
-                "square": 78,
-                "name": "Liz Estrada"
-            },
-            {
-                "square": 79,
-                "name": "Dennis Estrada"
-            },
-            {
-                "square": 80,
-                "name": "Bob Kleine"
-            },
-            {
-                "square": 81,
-                "name": "Chris Estrada"
-            },
-            {
-                "square": 82,
                 "name": "Steve Bahr"
             },
             {
-                "square": 83,
+                "square": 70,
+                "name": "Brent Mac (Bob)"
+            },
+            {
+                "square": 71,
+                "name": "Joe Jaschuk"
+            },
+            {
+                "square": 72,
+                "name": "Matt (Bob)"
+            },
+            {
+                "square": 73,
+                "name": "Mel (Bob)"
+            },
+            {
+                "square": 74,
+                "name": "Steve Spickard"
+            },
+            {
+                "square": 75,
+                "name": "Mike Kennedy"
+            },
+            {
+                "square": 76,
+                "name": "Pete (Bob)"
+            },
+            {
+                "square": 77,
                 "name": "Dennis Estrada"
             },
             {
-                "square": 84,
-                "name": "Bill Kritzman"
+                "square": 78,
+                "name": "Greg Rossi"
             },
             {
-                "square": 85,
-                "name": "Stacy Cazabon"
+                "square": 79,
+                "name": "Hager (Bob)"
             },
             {
-                "square": 86,
-                "name": "Shreve (Bob)"
+                "square": 80,
+                "name": "AA (Bob)"
             },
             {
-                "square": 87,
-                "name": "Mike Thayer"
-            },
-            {
-                "square": 88,
-                "name": "Denny Estrada"
-            },
-            {
-                "square": 89,
-                "name": "Bob/Derek"
-            },
-            {
-                "square": 90,
-                "name": "Travis (Bob)"
-            },
-            {
-                "square": 91,
-                "name": "Kyle House"
-            },
-            {
-                "square": 92,
-                "name": "Kelley Phillips"
-            },
-            {
-                "square": 93,
-                "name": "Paul Arthur"
-            },
-            {
-                "square": 94,
+                "square": 81,
                 "name": "Liz Estrada"
             },
             {
-                "square": 95,
-                "name": "Dennis Estrada"
+                "square": 82,
+                "name": "Mary Estrada"
             },
             {
-                "square": 96,
+                "square": 83,
+                "name": "Steve Bahr"
+            },
+            {
+                "square": 84,
+                "name": "Keith Roberts"
+            },
+            {
+                "square": 85,
+                "name": "Steve Spickard"
+            },
+            {
+                "square": 86,
+                "name": "Scott Jaschuk"
+            },
+            {
+                "square": 87,
+                "name": "Scott Jaschuk"
+            },
+            {
+                "square": 88,
+                "name": "Paul Arthur"
+            },
+            {
+                "square": 89,
+                "name": "Greg Rossi"
+            },
+            {
+                "square": 90,
+                "name": "Ryan Hunt"
+            },
+            {
+                "square": 91,
+                "name": "Chris Marxen"
+            },
+            {
+                "square": 92,
                 "name": "Derek Estrada"
             },
             {
+                "square": 93,
+                "name": "Vicky (Bob)"
+            },
+            {
+                "square": 94,
+                "name": "Scott Jaschuk"
+            },
+            {
+                "square": 95,
+                "name": "Derek Estrada"
+            },
+            {
+                "square": 96,
+                "name": "Allison Kennedy"
+            },
+            {
                 "square": 97,
-                "name": "Mandi Gauthier"
+                "name": "Matt Gauthier"
             },
             {
                 "square": 98,
-                "name": "Craig Konieczka"
+                "name": "Lyle Tolfree"
             },
             {
                 "square": 99,
-                "name": "Troy (Bob)"
-            }
+                "name": "Chris Estrada"
+            },
+           
         ];
         let nameList = [];
         const boardID = document.getElementById('BoardID');

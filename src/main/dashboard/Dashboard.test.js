@@ -2,16 +2,16 @@ async function test() {
   await new Promise(resolve => setTimeout(resolve, 1000));
   let LeaderboardArray = [];
 let dateRange = [
-  {date: 20230316, value: 10}, 
-  {date: 20230317, value: 10}, 
-  {date: 20230318, value: 25}, 
-  {date: 20230319, value: 25},
-  {date: 20230323, value: 50},
-  {date: 20230324, value: 50}, 
-  {date: 20230325, value: 100}, 
-  {date: 20230326, value: 100}, 
-  {date: 20230401, value: 250},
-  {date: 20230403, value: 480},
+  {date: 20240322, value: 10}, 
+  {date: 20240323, value: 10}, 
+  {date: 20240324, value: 25}, 
+  {date: 20240325, value: 25},
+  {date: 20240328, value: 50},
+  {date: 20240329, value: 50}, 
+  {date: 20240330, value: 100}, 
+  {date: 20240331, value: 100}, 
+  {date: 20240406, value: 250},
+  {date: 20240408, value: 480},
 ];
 let resultsContainer = document.getElementById('resultsContainer');
 
