@@ -2,10 +2,10 @@ async function test() {
   await new Promise(resolve => setTimeout(resolve, 1000));
   let LeaderboardArray = [];
 let dateRange = [
+  {date: 20240321, value: 10}, 
   {date: 20240322, value: 10}, 
-  {date: 20240323, value: 10}, 
-  {date: 20240324, value: 25}, 
-  {date: 20240325, value: 25},
+  {date: 20240323, value: 25}, 
+  {date: 20240324, value: 25},
   {date: 20240328, value: 50},
   {date: 20240329, value: 50}, 
   {date: 20240330, value: 100}, 
