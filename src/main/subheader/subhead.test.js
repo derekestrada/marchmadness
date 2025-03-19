@@ -3,62 +3,62 @@ async function test() {
 
     const dateList = [
         {
+            id: 20240320, 
+            date: "20th",
+            day: "THU",
+            month: "Mar"
+        },
+        {
             id: 20240321, 
             date: "21st",
-            day: "THU",
+            day: "FRI",
             month: "Mar"
         },
         {
             id: 20240322, 
             date: "22nd",
-            day: "FRI",
+            day: "SAT",
             month: "Mar"
         },
         {
             id: 20240323, 
             date: "23rd",
-            day: "SAT",
+            day: "SUN",
             month: "Mar"
         },
         {
-            id: 20240324, 
-            date: "24th",
-            day: "SUN",
+            id: 20240327, 
+            date: "27th",
+            day: "THU",
             month: "Mar"
         },
         {
             id: 20240328, 
             date: "28th",
-            day: "THU",
+            day: "FRI",
             month: "Mar"
         },
         {
             id: 20240329, 
             date: "29th",
-            day: "FRI",
+            day: "SAT",
             month: "Mar"
         },
         {
             id: 20240330, 
             date: "30th",
-            day: "SAT",
-            month: "Mar"
-        },
-        {
-            id: 20240331, 
-            date: "31st",
             day: "SUN",
             month: "Mar"
         },
         {
-            id: 20240406, 
-            date: "6th",
+            id: 20240405, 
+            date: "5th",
             day: "SAT",
             month: "APR"
         },
         {
-            id: 20240408, 
-            date: "8th",
+            id: 20240407, 
+            date: "7th",
             day: "MON",
             month: "APR"
         },
