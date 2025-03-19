@@ -4,8 +4,8 @@ async function test() {
     function setNumbers() {
 
         // Set Numbers 
-        let winners = [0,9,7,2,6,4,1,3,8,5];
-        let losers = [4,6,9,5,2,0,3,8,1,7];
+        let winners = [1,2,8,4,7,6,3,9,0,5];
+        let losers = [3,7,6,8,0,4,5,2,1,9];
 
         const winRow = document.getElementById("winningNumbers");
         const winnerNums = winRow.querySelectorAll("td:not(.blank)");
