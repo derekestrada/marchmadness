@@ -38,7 +38,7 @@ dateRange.forEach(function(e, key){
 
   let newResults = document.createElement("div");
   newResults.classList.add("Results");
-  (todaysDate === e.date) ? newResults.classList.add("today") : null;
+  (todaysDate === e.date) ? newResults.classList.add("today") : console.log("key:", key);
 
   newResults.setAttribute("id", e.date);
   newResults.setAttribute("value", e.value);
