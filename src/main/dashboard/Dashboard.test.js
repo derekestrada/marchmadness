@@ -38,7 +38,7 @@ dateRange.forEach(function(e, key){
 
   let newResults = document.createElement("div");
   newResults.classList.add("Results");
-  (todaysDate === e.date) ? newResults.classList.add("today") : console.log("key:", key);
+  (todaysDate === e.date) ? newResults.classList.add("today") : null;
 
   newResults.setAttribute("id", e.date);
   newResults.setAttribute("value", e.value);
@@ -46,8 +46,7 @@ dateRange.forEach(function(e, key){
 });
 
 function winnerSquare(winnerNumber, loserNumber, eventWorth, winnerData) {
-  // let winners = [0,9,8,7,6,5,4,3,2,1];
-  let losers = [3,7,4,6,5,0,9,8,1,2];
+  let losers = [3,7,6,8,0,4,5,2,1,9];
   let winnerRow = document.querySelectorAll("td[data-winnum='" + winnerNumber + "']");
 
   for(let j = 0; j < losers.length; j++) {
