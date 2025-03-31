@@ -166,20 +166,11 @@ function retrieveData() {
         let winnerData = [awayTeam, homeTeam, awayLogo, homeLogo, awayTotal, homeTotal];
 
 
-        if (homeTeam === "Alabama") {
-          console.log("totals:", awayTotal, homeTotal)
-          console.log("Away Team",awayTeam, awayTotal < homeTotal);
-    
-        }
         if (awayTotal < homeTotal) {
             let winnerNumber = homeTotal % 10;
             let loserNumber = awayTotal % 10;
           winnerSquare(winnerNumber, loserNumber, eventWorth, winnerData);
           
-          if (homeTeam === "Alabama") {
-            console.log("winnerData:", winnerData);
-            console.log(winnerNumber, loserNumber);
-          }
         } else {
           let loserNumber = homeTotal % 10;
           let winnerNumber = awayTotal % 10;
