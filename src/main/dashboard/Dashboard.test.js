@@ -161,18 +161,31 @@ function retrieveData() {
         }
       }
       if (eventStatus === "STATUS_FINAL")  {
-        let awayTotal = e.competitions[0].competitors[1].score;
-        let homeTotal = e.competitions[0].competitors[0].score;
+        let awayTotal = parseInt(e.competitions[0].competitors[1].score, 10);
+        let homeTotal = parseInt(e.competitions[0].competitors[0].score, 10);
         let winnerData = [awayTeam, homeTeam, awayLogo, homeLogo, awayTotal, homeTotal];
+
+
+        if (homeTeam === "Alabama") {
+          console.log("totals:", awayTotal, homeTotal)
+          console.log("Away Team",awayTeam, awayTotal < homeTotal);
+    
+        }
         if (awayTotal < homeTotal) {
-          let winnerNumber = homeTotal.substring(homeTotal.length - 1);
-          let loserNumber = awayTotal.substring(awayTotal.length - 1);
+            let winnerNumber = homeTotal % 10;
+            let loserNumber = awayTotal % 10;
           winnerSquare(winnerNumber, loserNumber, eventWorth, winnerData);
+          
+          if (homeTeam === "Alabama") {
+            console.log("winnerData:", winnerData);
+            console.log(winnerNumber, loserNumber);
+          }
         } else {
-          let loserNumber = homeTotal.substr(homeTotal.length - 1);
-          let winnerNumber = awayTotal.substr(awayTotal.length - 1);
+          let loserNumber = homeTotal % 10;
+          let winnerNumber = awayTotal % 10;
           winnerSquare(winnerNumber, loserNumber, eventWorth, winnerData);
         }
+
       }
       const button = document.getElementsByClassName("event");
       for (let i=0; i < button.length; i++) {
