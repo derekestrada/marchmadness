@@ -46,7 +46,7 @@
   border-radius: 10px;
   margin: 0 auto;
   height: 400px;
-  overflow: scroll;
+  overflow: auto;
 }
 .Sidebar h4 {
   border-bottom: 1px solid black;
