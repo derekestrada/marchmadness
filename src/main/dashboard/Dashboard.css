@@ -221,7 +221,7 @@
   .Dashboard .Results {
     flex-wrap: wrap;
     max-height: auto;
-    overflow-y: scroll;
+    overflow-y: auto;
     justify-content: space-around;
     box-sizing: border-box;
     width: 100%;
