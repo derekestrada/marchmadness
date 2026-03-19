@@ -169,7 +169,10 @@
     flex-direction: column;
     max-width: 100%;
     background: none;
-    padding: 0
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
   }
   .mySquares ul li span {
     width: 10px;
