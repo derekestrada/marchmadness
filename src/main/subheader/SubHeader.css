@@ -33,7 +33,7 @@
 @media (max-width: 400px) {
     #subhead #dateSelect {
         justify-content: start;
-        overflow: auto;
+        overflow: scroll;
     }
   }
   

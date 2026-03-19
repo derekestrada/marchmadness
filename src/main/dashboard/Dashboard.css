@@ -1,5 +1,5 @@
 .Dashboard {
-  overflow: auto;
+  overflow: scroll;
   margin-bottom: 15px;
 }
 .Dashboard h4 {

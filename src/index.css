@@ -28,7 +28,7 @@ code {
 }
 #root .main {
   flex: 4;
-  overflow: auto;
+  overflow: scroll;
 }
 
 /* Loading Screen  */
